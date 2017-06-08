@@ -258,6 +258,11 @@ section code {
 	padding: 20rem, 0;
 }*/
 
+#sitemap {
+  /*align-items: center;*/
+  justify-content: center;
+}
+
 
 @media (max-width: 30rem) {
 
