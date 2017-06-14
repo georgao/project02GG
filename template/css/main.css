@@ -2,6 +2,37 @@
     box-sizing: border-box;
 }
 
+.header{
+  margin: 1rem;
+
+}
+
+.logo{
+  margin-left: 5rem;
+  padding-left: 2rem;
+  padding-right:2rem; 
+  width: 8rem;
+  height: 2rem;
+
+
+}
+.side-button{
+    padding-left: 2rem;
+
+}
+
+.side-button:link {
+    color: #888860; /*darker colour*/
+}
+
+.side-button:visited {
+    color: #888860; 
+}
+
+.side-button:hover {
+    color: #b6b680; /*lighter colour*/
+}
+
 @font-face {
     font-family: myFont;
     src: url(../fonts/cocomat/cocomat_light-trial-webfont.woff);
