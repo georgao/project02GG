@@ -2,49 +2,41 @@
   box-sizing: border-box;
 }
 
-ul.sidebars {
-    list-style-type: none;
-    margin: 0;
-    padding: 0; 
-
-
-
+.sidebars{
+  display: block;
 }
 
 ul.sidebars li {
   display: inline;
   padding-left: 2rem;
-
 }
 
-ul.sidebars li .logo {
-  vertical-align: text-top;
-  width: 8rem;
-  height: 2rem;
+ul.sidebars li .side-button{
+  float:right;
+  padding-top: 1rem;
+  padding-right: 1rem;
 }
 
-ul.sidebars li input{
+ul.sidebars li .brandlogo {
   float: left;
-  vertical-align: text-top;
-
+  width: 10rem;
+  height: 3rem;
 }
+
+
 
 ul.sidebars li .side-search{
-  float: right;
+  margin-top: 1rem;
   border: none;
   border-bottom: 0.1rem solid #E4E4A1;
-  width: auto;
+  width: 10rem;
   font-size: 1rem;
 }
 
 
 .header{
+  font-size: 1rem;
 }
-
-
-
-  
-
 
 .side-button:link {
   color: #888860; /*darker colour*/
@@ -58,6 +50,12 @@ ul.sidebars li .side-search{
   color: #b6b680; /*lighter colour*/
 }
 
+
+.catalog{
+  display: block;
+  width: 100%;
+  text-align: center;
+}
 
 @font-face {
   font-family: myFont;
@@ -83,7 +81,7 @@ a {
 }
 
 .bullet-list, .numbered-list, .grid-blocks, #heading1, #heading2, #heading3, .heading-sample {
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: myFont;
 }
 
 .in-text-link:link {
@@ -136,9 +134,8 @@ a {
   font-size: 1rem;
   padding: 1rem;
   width: 9rem;
-  transition: all 0.5s;
   cursor: pointer;
-  margin: 1rem;
+  margin: 0.5rem;
 }
 
 .render-menu {
@@ -149,7 +146,7 @@ a {
   cursor: pointer;
   display: inline-block;
   position: relative;
-  transition: 0.5s;
+  transition:  0.5s;
 }
 
 .nav-btn span:after {
@@ -194,7 +191,6 @@ a {
   font-size: 1rem;
   padding: 1rem;
   width: 9rem;
-  transition: all 0.5s;
   cursor: pointer;
   margin: 1rem;
 }
@@ -232,7 +228,7 @@ h2 {
 }
 
 .links {
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: myFont;
 }
 
 section {
