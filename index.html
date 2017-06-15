@@ -1,368 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
 	<meta charset="UTF-8">
-	<title>Style Guide</title>
+	<title>Home Page</title>
 	<link rel="stylesheet" href="css/main.css">
+
 </head>
 <body>
-	<div class="header">
+	<header class="header">
+	<div class="page-header">
+		<a href="index.html"><img class="brandlogo" src="img/placeholder.png" alt="can't load img" width="" height=""></a>
+		<input class="side-search" type="text" placeholder="Search In Site" name="searchInSite">
+		<ul class="sidebars">
+			<li><a class="side-button" href="cart.html">Shopping Cart</a></li>
+			<li><a class="side-button" href="login.html">My Account</a></li>
+			<li><a class="side-button" href="about.html">About</a></li>			
+			
+		</ul>
+	</div>	
+		<nav class="catalog">
+			<button onclick="location.href='category_rock.html';" class="nav-btn render-menu" style="vertical-align:middle"><span>GENRENS & STYLES </span></button>
+			<button onclick="location.href='category_rock.html';" class="nav-btn render-menu" style="vertical-align:middle"><span>BRAND LABELS </span></button>
+			<button onclick="location.href='category_rock.html';" class="nav-btn render-menu" style="vertical-align:middle"><span>RARE COLLECTIONS </span></button>
 
-		<h1 class="logo">Style Guide</h1>
-
-		<nav class="menu">
-			<button class="nav-btn" style="vertical-align:middle" onclick="location.href='index.html';"><span>StyleGuide </span></button>
-			<button class="nav-btn" style="vertical-align:middle" onclick="location.href='sketches_final.html';"><span>Sketches </span></button>
-			<button class="nav-btn" style="vertical-align:middle" onclick="location.href='citation.html';"><span>Citation </span></button>
 		</nav>
-
-		<p id="submenu">Quick access to <a class="in-text-link" href="#interactive">Interactive Elements, </a><a class="in-text-link" href="#text">Text Styling, </a><a class="in-text-link" href="#combined">Combined Elements, </a><a class="in-text-link" href="#sitemaps">Sitemaps</a></p>
-
-	</div>
-
+	</header>
 
 	<div class="container">
+		<div class="homepageSlidesContainer">
+			<img class="homepageSlides" src="img/placeholder.png" alt="cant load img">
+		</div>
 
-		<section id="interactive">
-			<h1 class="subtitle">Interactive Elements</h1>
-			<br>
-
-			<h2>In-text Link</h2>
-
-			<div class="block">
-				
-				<div class="box box1">
-					<h3>CSS Selector</h3>
-					<p>.in-text-link</p>
+		<section id="newProducts">
+			<h2 class="subtitles">New Products</h2>
+			<div class="newProductsContainer">
+				<div class="BX 1of4">
+					<img class="newProductsImgs" src="img/placeholder.png" alt="cant load img">
+					<h3 class="newProductsTitle">Item 1</h3>
+					<p class="newProductsText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam non tincidunt purus. Nunc non efficitur nunc. Suspendisse potenti. Pellentesque aliquam scelerisque congue.</p>
 				</div>
-
-				<div class="box box2">
-					<h3>Sample Code</h3>
-					<code>&lt;p&gt;Read more&lt;a href="#text" class="in-text-link"&gt;text stylings here&lt;/a&gt;&lt;/p&gt;</code>
+				<div class="BX 1of4">
+					<img class="newProductsImgs" src="img/placeholder.png" alt="cant load img">
+					<h3 class="newProductsTitle">Item 2</h3>
+					<p class="newProductsText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam non tincidunt purus. Nunc non efficitur nunc. Suspendisse potenti. Pellentesque aliquam scelerisque congue.</p>
 				</div>
-
-				<div class="box box3">
-					<h3>Rendered Element</h3>
-					<p>Read more <a href="#text" class="in-text-link">text stylings here</a></p>
+				<div class="BX 1of4">
+					<img class="newProductsImgs" src="img/placeholder.png" alt="cant load img">
+					<h3 class="newProductsTitle">Item 3</h3>
+					<p class="newProductsText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam non tincidunt purus. Nunc non efficitur nunc. Suspendisse potenti. Pellentesque aliquam scelerisque congue.</p>
 				</div>
-			</div>
-			<br>
-			<br>
-
-			
-			<h2>Navigation Button</h2>
-			<div class="block">
-				
-				<div class="box box1">
-					<h3>CSS Selector</h3>
-					<p>.nav-btn</p>
-				</div>
-
-				<div class="box box2">
-					<h3>Sample Code</h3>
-					<code>&lt;button href="#" class="nav-btn"&gt;MENU&lt;/button&gt;</code>
-				</div>
-
-				<div class="box box3">
-					<h3>Rendered Element</h3>
-					<button href="#" class="nav-btn" style="vertical-align:middle"><span>MENU </span></button>
+				<div class="BX 1of4">
+					<img class="newProductsImgs" src="img/placeholder.png" alt="cant load img">
+					<h3 class="newProductsTitle">Item 4</h3>
+					<p class="newProductsText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam non tincidunt purus. Nunc non efficitur nunc. Suspendisse potenti. Pellentesque aliquam scelerisque congue.</p>
 				</div>
 			</div>
-			<br>
-			<br>
-
-
-			
-			<h2>Submit and Reset Button</h2>
-			<div class="block">
-				
-				<div class="box box1">
-					<h3>CSS Selector</h3>
-					<p>.form-btn</p>
-				</div>
-
-				<div class="box box2">
-					<h3>Sample Code</h3>
-					<code>&lt;button href="#" class="form-btn"&gt;SUBMIT&lt;/button&gt;</code>
-					<code>&lt;button href="#" class="form-btn"&gt;RESET&lt;/button&gt;</code>
-				</div>
-
-				<div class="box box3">
-					<h3>Rendered Element</h3>
-					<button href="#" class="form-btn">SUBMIT</button>
-					<button href="#" class="form-btn">RESET</button>
-				</div>
-			</div>
-			<br>
-			<br>
-
-
-			<h2>Text Input Field and Label</h2>
-			<div class="block">
-				
-				<div class="box box1">
-					<h3>CSS Selector</h3>
-					<p>.text-input</p>
-				</div>
-
-				<div class="box box2">
-					<h3>Sample Code</h3>
-					<code>&lt;input class="text-input" type="text" placeholder="First Name" name="firstname"&gt;</code>
-				</div>
-
-				<div class="box box3">
-					<h3>Rendered Element</h3>
-					<input class="text-input" type="text" placeholder="First Name" name="firstname">
-				</div>
-			</div>
-			<br>
-			<br>
-
 		</section>
 
-
-		<section id="text">
-			<h1 class="subtitle">Text Styling</h1>
-			<br>
-
-			<h2>Three levels of headings</h2>
-			<div class="block">
-				
-				<div class="box box1">
-					<h3>CSS Selector</h3>
-					<p class="heading-sample">.heading1</p>
-					<p class="heading-sample">.heading2</p>
-					<p class="heading-sample">.heading3</p>
-				</div>
-
-				<div class="box box2">
-					<h3>Sample Code</h3>
-					<code>&lt;p class="heading1"&gt;Heading 1&lt;/p&gt;</code>
-					<code>&lt;p class="heading2"&gt;Heading 2&lt;/p&gt;</code>
-					<code>&lt;p class="heading3"&gt;Heading 3&lt;/p&gt;</code>
-				</div>
-
-				<div class="box box3">
-					<h3>Rendered Element</h3>
-					<p id="heading1">Heading 1</p>
-					<p id="heading2">Heading 2</p>
-					<p id="heading3">Heading 3</p>
-				</div>
+		<section id="events">
+			<h2 class="subtitles">Events</h2>
+			<div class="eventsSlidesContainer">
+				<img id="eventsSlides1" src="img/placeholder.png" alt="cant load img">
+				<img id="eventsSlides2" src="img/placeholder.png" alt="cant load img">
+				<img id="eventsSlides3" src="img/placeholder.png" alt="cant load img">
 			</div>
-			<br>
-			<br>
-
-
-			<h2>Paragraph</h2>
-			<div class="block">
-				
-				<div class="box box1">
-					<h3>CSS Selector</h3>
-					<p>.paragraph</p>
-				</div>
-
-				<div class="box box2">
-					<h3>Sample Code</h3>
-					<code>&lt;p class="paragraph"&gt;Vinylbeats is a ...&lt;/p&gt;</code>
-				</div>
-
-				<div class="box box3">
-					<h3>Rendered Element</h3>
-					<p class="paragraph">Vinylbeats is a online store that sells vinyl records. Customers can place orders online and receive their products by shipping, they can also visit retail stores according to their information online.</p>
-				</div>
-			</div>
-			<br>
-			<br>
-
-
-			<h2>Bullet Lists</h2>
-			<div class="block">
-				
-				<div class="box box1">
-					<h3>CSS Selector</h3>
-					<p>.bullet-list</p>
-				</div>
-
-				<div class="box box2">
-					<h3>Sample Code</h3>
-					<code>&lt;ul&gt;</code>
-					<code>&lt;li class="bullet-list"&gt;Item 1&lt;/li&gt;</code>
-					<code>&lt;li class="bullet-list"&gt;Item 2&lt;/li&gt;</code>
-					<code>&lt;li class="bullet-list"&gt;Item 3&lt;/li&gt;</code>
-					<code>&lt;/ul&gt;</code>
-				</div>
-
-				<div class="box box3">
-					<h3>Rendered Element</h3>
-					<ul>
-						<li class="bullet-list">Item 1</li>
-						<li class="bullet-list">Item 2</li>
-						<li class="bullet-list">Item 3</li>
-					</ul>
-				</div>
-			</div>
-			<br>
-			<br>
-
-
-			<h2>Numbered Lists</h2>
-			<div class="block">
-				
-				<div class="box box1">
-					<h3>CSS Selector</h3>
-					<p>.numbered-list</p>
-				</div>
-
-				<div class="box box2">
-					<h3>Sample Code</h3>
-					<code>&lt;ol&gt;</code>
-					<code>&lt;li class="numbered-list"&gt;Item 1&lt;/li&gt;</code>
-					<code>&lt;li class="numbered-list"&gt;Item 2&lt;/li&gt;</code>
-					<code>&lt;li class="numbered-list"&gt;Item 3&lt;/li&gt;</code>
-					<code>&lt;/ol&gt;</code>
-				</div>
-
-				<div class="box box3">
-					<h3>Rendered Element</h3>
-					<ol>
-						<li class="numbered-list">Item 1</li>
-						<li class="numbered-list">Item 2</li>
-						<li class="numbered-list">Item 3</li>
-					</ol>
-				</div>
-			</div>
-			<br>
-			<br>
-
 		</section>
 
-
-		<section id="combined">
-			<h1 class="subtitle">Combined Elements</h1>
-			<br>
-
-			<h2>Main Naviagtion</h2>
-			<div class="block">
-				
-				<div class="box box1">
-					<h3>CSS Selector</h3>
-					<p>.menu-button</p>
-				</div>
-
-				<div class="box box2">
-					<h3>Sample Code</h3>
-					<code>&lt;nav&gt;</code>
-					<code>&lt;button href="#" class="menu-button"&gt;GENRES & SYTLES&lt;/button&gt;</code>
-					<code>&lt;button href="#" class="menu-button"&gt;LABELS&lt;/button&gt;</code>
-					<code>&lt;button href="#" class="menu-button"&gt;RARE COLLECTIONS&lt;/button&gt;</code>
-					<code>&lt;/nav&gt;</code>
-				</div>
-
-				<div class="block">
-					<h3>Rendered Element</h3><br>			<nav>
-						<button href="#" class="nav-btn render-menu" style="vertical-align:middle"><span>GENRENS & STYLES </span></button>
-						<button href="#" class="nav-btn render-menu" style="vertical-align:middle"><span>LABELS </span></button>
-						<button href="#" class="nav-btn render-menu" style="vertical-align:middle"><span>RARE COLLECTIONS </span></button>
-					</nav>
-
-
-				</div>
-			</div>
-			<br>
-			<br>
-
-
-			<h2>Product Lists</h2>
-
-			<div class="block">
-
-				<div class="box">
-					<h3>Genres & Styles</h3>
-					<ul>
-						<li>Rock</li>
-						<li>Heavy Metal</li>
-						<li>Folk Rock</li>
-						<li>Progressive Rock</li>
-						<li>Post Rock</li>
-						<li>Pop</li>
-						<li>Jazz</li>
-						<li>Jazz Fusion</li>
-						<li>Electronic & Dance</li>
-						<li>Classic Music</li>
-					</ul>
-				</div>
-
-				<div class="box">
-					<h3>Labels</h3>
-					<ul>
-						<li>Analogue Productions</li>
-						<li>Audio Fidelity</li>
-						<li>Hi-Q Records</li>
-						<li>Impex Records Rock</li>
-						<li>Moblie Fidelity Lab</li>
-						<li>MSP Records</li>
-						<li>Music Matters</li>
-						<li>ORG Music</li>
-					</ul>
-				</div>
-
-
-				<div class="box">
-					<h3>Rare Collections</h3>
-					<ul>
-						<li>Orchestral</li>
-						<li>Jazz</li>
-						<li>Funk</li>
-						<li>The Beatles</li>
-					</ul>
-				</div>
-
-			</div>
-			<br>
-			<br>
-
-
-			<h2>Grid Structure</h2>
-			<br>
-			<div class="block">
-				<div class="grid-blocks"><p>Grid 1</p></div>
-				<div class="grid-blocks"><p>Grid 2</p></div>
-				<div class="grid-blocks"><p>Grid 3</p></div>
-				<div class="grid-blocks"><p>Grid 4</p></div>
-			</div>
-			<br>
-			<br>
-
-
-			<h2>Color Schemes</h2>
-			<br>
-			<div class="block">
-				<div class="color-blocks c1"></div>
-				<div class="color-blocks c2"></div>
-				<div class="color-blocks c3"></div>
-				<div class="color-blocks c4"></div>
-				<div class="color-blocks c5"></div>
-				<div class="color-blocks c6"></div>
-				<div class="color-blocks c7"></div>
-			</div>
-			<br>
-			<br>
-
-
-
-		</section>
-
-		<section id="sitemaps">
-			<h1 class="subtitle">Sitemaps</h1>
-			<br>
-			<div class="block">
-				<img src="img/site_map.png" alt="cant load img" width="900" height="340">
-			</div>
+		<section id="subscribes">
+			<h1 class="subscribesTitles">GET OUR NEWEST RECORDS UPDATES</h1>
+			<h2 class="subtitles sm">sign up for newsletters</h2>
+			<input class="text-input subscribes-input" type="text" placeholder="Your Email Address" name="yourEmailAddress">
+			<button href="#" class="form-btn subscribes-btn">SUBSCRIBE</button>
 		</section>
 
 	</div>
+
+	<footer>
+		<div id="footer">
+			<h1 class="footerTitle">Follow us on</h1>
+			<div class="footerIconsContainer">
+				<img class="footerIcons" src="img/placeholder.png" alt="cant load img">
+				<img class="footerIcons" src="img/placeholder.png" alt="cant load img">
+				<img class="footerIcons" src="img/placeholder.png" alt="cant load img">
+				<img class="footerIcons" src="img/placeholder.png" alt="cant load img">
+			</div>
+			<h3 class="footerText">Operation hours: Mon to Fri (9am to 6pm)</h3>
+			<h2 class="footerText">(778)123-4567</h2>
+			<h3 class="footerText">or email us</h3>
+			<h2 class="footerText">vinylbeatsrecords@sfu.ca</h2>
+			<br>
+			<h3 class="footerText">250 - 13450 – 102nd Avenue, Surrey, BC V3T 0A3</h3>
+
+			<nav class="footerNav">
+				<a class="side-button footerNavItem" href="about.html">About</a>
+				<a class="side-button footerNavItem" href="events.html">Events</a>
+				<a class="side-button footerNavItem" href="#subscribes">Subscribe</a>
+				<a class="side-button footerNavItem" href="#footer">Contact</a>
+			</nav>
+
+			<div class="copyrights">
+				<h3 class="copyrightsText">Copyright © Group Group Design All Right Reserved</h3>
+			</div>
+		</div>
+	</footer>
 
 
 	
 </body>
 </html>
+<!-- 
+Reference:
+w3school.com
+
+image placeholder:
+http://mpcoleman.co.uk/?attachment_id=5
+ -->
