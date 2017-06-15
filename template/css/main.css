@@ -1,41 +1,67 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-.header{
-  margin: 1rem;
+ul.sidebars {
+    list-style-type: none;
+    margin: 0;
+    padding: 0; 
+
+
 
 }
 
-.logo{
-  margin-left: 5rem;
+ul.sidebars li {
+  display: inline;
   padding-left: 2rem;
-  padding-right:2rem; 
+
+}
+
+ul.sidebars li .logo {
+  vertical-align: text-top;
   width: 8rem;
   height: 2rem;
+}
 
+ul.sidebars li input{
+  float: left;
+  vertical-align: text-top;
 
 }
-.side-button{
-    padding-left: 2rem;
 
+ul.sidebars li .side-search{
+  float: right;
+  border: none;
+  border-bottom: 0.1rem solid #E4E4A1;
+  width: auto;
+  font-size: 1rem;
 }
+
+
+.header{
+}
+
+
+
+  
+
 
 .side-button:link {
-    color: #888860; /*darker colour*/
+  color: #888860; /*darker colour*/
 }
 
 .side-button:visited {
-    color: #888860; 
+  color: #888860; 
 }
 
 .side-button:hover {
-    color: #b6b680; /*lighter colour*/
+  color: #b6b680; /*lighter colour*/
 }
 
+
 @font-face {
-    font-family: myFont;
-    src: url(../fonts/cocomat/cocomat_light-trial-webfont.woff);
+  font-family: myFont;
+  src: url(../fonts/cocomat/cocomat_light-trial-webfont.woff);
 }
 
 body {
@@ -61,15 +87,15 @@ a {
 }
 
 .in-text-link:link {
-    color: #888860; /*darker colour*/
+  color: #888860; /*darker colour*/
 }
 
 .in-text-link:visited {
-    color: #888860; 
+  color: #888860; 
 }
 
 .in-text-link:hover {
-    color: #b6b680; /*lighter colour*/
+  color: #b6b680; /*lighter colour*/
 }
 
 .container {
@@ -95,7 +121,10 @@ a {
 	align-items: center;
 	justify-content: center;
 }
-
+.catalog{
+  display: block;
+  float: left;
+}
 .nav-btn {
   /*text-decoration: none;*/
   display: inline-block;
@@ -142,10 +171,10 @@ a {
 }
 
 .form-btn {
-    background-color: #E4E4A1;
-    color: white;
-    border: .1rem solid #E4E4A1;
-    font-size: 0.875rem;
+  background-color: #E4E4A1;
+  color: white;
+  border: .1rem solid #E4E4A1;
+  font-size: 0.875rem;
 
 }
 
@@ -173,13 +202,13 @@ a {
 .text-input {
 	font-size: 1rem;
 	padding-top: 1rem;
-    padding-bottom: 0.1rem;
-    display: block;
-    border: none;
-    border-bottom: 0.1rem solid #E4E4A1;
-    width: auto;
-    font-size: 1rem;
-    margin: 0;
+  padding-bottom: 0.1rem;
+  display: block;
+  border: none;
+  border-bottom: 0.1rem solid #E4E4A1;
+  width: auto;
+  font-size: 1rem;
+  margin: 0;
 }
 
 #heading1 {
@@ -302,10 +331,10 @@ section code {
     }*/
 
 	.box {
-		flex: 0 0 100%;
+  	flex: 0 0 100%;
 	}
 
 	.grid-blocks {
-		flex: 0 0 60%;
+    flex: 0 0 60%;
 	}
 }
