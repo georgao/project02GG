@@ -25,7 +25,6 @@
 ul.sidebars{
   float: right;
   margin-bottom: 0;
-
 }
 
 ul.sidebars li {
@@ -39,9 +38,13 @@ ul.sidebars li a{
   padding-right: 1rem;
 }
 
+.container {
+  clear: right;
+}
 
-
-
+.container {
+  clear: left;
+}
 
 
 
@@ -185,6 +188,10 @@ a {
 .subtitles, h2, .logo {
 	text-align: center;
 }
+/*
+.subtitles {
+  margin: 5rem auto;
+}*/
 
 .logo {
 	font-size: 2.5rem;
@@ -549,6 +556,175 @@ section code {
   height: 25px;
 }
 
+.img-main {
+  display: -webkit-flex;
+  display: flex;
+  max-width: 400px;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 1rem;
+}
+
+.img-subs {
+  -webkit-flex: 1;
+  flex: 1;
+  max-width: 100px;
+  max-height: 90px;
+  margin: 0 auto;
+  /*padding: 10px;*/
+}
+
+.item-slides-subs {
+  display: -webkit-flex;
+  display: flex;
+  margin-top: 2rem;
+}
+
+.item-details {
+  display: -webkit-flex;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  border: 0.1rem solid #E4E4A1;
+}
+
+.item-slides {
+  -webkit-flex: 1;
+          flex: 1;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 2rem;
+  /*border: 0.1rem solid #E4E4A1;*/
+}
+
+.item-details-container {
+  -webkit-flex: 1;
+          flex: 1;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 2rem;
+  /*border: 0.1rem solid #E4E4A1;*/
+}
+
+.item-descriptions {
+  padding: 2rem;
+}
+
+.description-labels {
+  -webkit-flex: 1;
+          flex: 1;
+  text-align: center;
+}
+
+.label-selected {
+  text-decoration: underline;
+}
+
+.descriptions-labels-container {
+  display: -webkit-flex;
+  display: flex;
+  /*flex-wrap: wrap;*/
+}
+
+.descriptions-text {
+  font-size: 14px;
+}
+
+.detail-reviews, .detail-price, .item-counts-text {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*.item-process {
+  padding: 2rem;
+}*/
+
+.detail-add-cart {
+  width: 130px;
+  height: 40px;
+  margin-right: 3rem;
+}
+
+.detail-add-wish {
+  width: 100px;
+  height: 40px;
+}
+
+.login-container {
+  display: -webkit-flex;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 4rem auto;
+}
+
+.registered, .newCustomer {
+  -webkit-flex: 1;
+          flex: 1;
+}
+
+.registered {
+  border-right: 0.1rem solid #E4E4A1;
+}
+
+.login-input, .login-btn {
+  display: block;
+  margin: 1rem auto;
+}
+
+.login-input {
+  width: 300px;
+  border: 0.1rem solid #E4E4A1;
+  padding: 0.5rem;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.login-btn {
+  width: 300px;
+  height: 40px;
+}
+
+.register-row {
+  display: -webkit-flex;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.register-text {
+    -webkit-flex: 1;
+            flex: 1;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.register-input {
+    -webkit-flex: 3;
+            flex: 3;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    height: 2rem;
+}
+
+.register-subtitles {
+  text-align: left;
+  margin-left: 1rem;
+}
+
+.register-confirm {
+  display: -webkit-flex;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.text-confirm {
+  -webkit-flex: 1;
+          flex: 1;
+  text-align: center;
+}
+.register-confirm-btn {
+  margin-right: 2rem;
+  margin-left: 2rem;
+}
+
 @media (max-width: 30rem) {
 
 /*	#page-title {
@@ -604,12 +780,55 @@ text-align: center;
   .subscribes-input {
     width: auto;
   }
+
+  .item-slides {
+    flex: 0 0 100%;
+  }
+
+  .item-details-container {
+    flex: 0 0 100%;
+  }
+
+  .img-main {
+    max-width: 300px;
+  }
+
+  .img-subs {
+    max-width: 75px;
+  }
+
+  .registered {
+    border-right: none;
+    border-bottom: 0.1rem solid #E4E4A1;
+  }
+
+  .register-text {
+    flex: 0 0 100%;
+  }
+
+  .register-input {
+    flex: 0 0 100%;
+  }
+
+  .register-subtitles {
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .register-confirm-btn {
+    margin-right: 0;
+  }
 }
 
 
 
 /*Reference:
-w3school.com
+
+https://www.w3schools.com/tags/att_textarea_placeholder.asp
+http://www.lipsum.com/feed/html
+https://www.w3schools.com/css/css_align.asp
+https://stackoverflow.com/questions/7381446/center-html-input-text-field-placeholder
+https://stackoverflow.com/questions/12991351/css-force-image-resize-and-keep-aspect-ratio
 
 image placeholder:
 http://mpcoleman.co.uk/?attachment_id=5*/
