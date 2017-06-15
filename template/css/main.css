@@ -2,36 +2,46 @@
   box-sizing: border-box;
 }
 
-.sidebars{
+.page-header{
   display: block;
 }
-
-ul.sidebars li {
-  display: inline;
-  padding-left: 2rem;
-}
-
-ul.sidebars li .side-button{
-  float:right;
-  padding-top: 1rem;
-  padding-right: 1rem;
-}
-
-ul.sidebars li .brandlogo {
+.brandlogo {
+  display: inline-block;
   float: left;
   width: 10rem;
   height: 3rem;
 }
 
-
-
-ul.sidebars li .side-search{
+.side-search{
+  display: inline-block;
+  float: left;
+  margin-left: 4rem;
   margin-top: 1rem;
   border: none;
   border-bottom: 0.1rem solid #E4E4A1;
-  width: 10rem;
   font-size: 1rem;
 }
+
+ul.sidebars{
+  float: right;
+
+}
+
+ul.sidebars li {
+  float:right;
+  display: inline;
+  padding-left: 1rem;
+}
+
+ul.sidebars li a{
+  display: block;
+  padding-right: 1rem;
+}
+
+
+
+
+
 
 
 .header{
@@ -467,6 +477,39 @@ section code {
 /*	#page-title {
     	font-size: 20px;
     }*/
+
+    .side-search{
+      width: 100%;
+      float: none;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+    }
+
+.sidebars {
+  width: 100%;
+  margin:0;
+  padding: 0;
+}
+ul.sidebars li {
+  float:none;
+  margin: 0;
+    padding: 0;
+
+}
+
+ul.sidebars li a{
+
+text-align: center;
+}
+
+.nav-btn{
+  margin: .2rem;
+}
+
+  nav.catalog button {
+    float: none;
+  }
 
 	.box {
   	flex: 0 0 100%;
