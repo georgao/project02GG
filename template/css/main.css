@@ -1,40 +1,60 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
+
+.sidebars{
+  display: block;
+}
+
+ul.sidebars li {
+  display: inline;
+  padding-left: 2rem;
+}
+
+ul.sidebars li .side-button{
+  float:right;
+  padding-top: 1rem;
+  padding-right: 1rem;
+}
+
+ul.sidebars li .brandlogo {
+  float: left;
+  width: 10rem;
+  height: 3rem;
+}
+
+
+
+ul.sidebars li .side-search{
+  margin-top: 1rem;
+  border: none;
+  border-bottom: 0.1rem solid #E4E4A1;
+  width: 10rem;
+  font-size: 1rem;
+}
+
 
 .header{
-  margin: 1rem;
-
-}
-
-.subtitles {
-}
-
-
-.logo{
-  margin-left: 5rem;
-  padding-left: 2rem;
-  padding-right:2rem; 
-  width: 8rem;
-  height: 2rem;
-
-
-}
-.side-button{
-    padding-left: 2rem;
-
+  font-size: 1rem;
 }
 
 .side-button:link {
-    color: #888860; /*darker colour*/
+  color: #888860; /*darker colour*/
 }
 
 .side-button:visited {
-    color: #888860; 
+  color: #888860; 
 }
 
 .side-button:hover {
-    color: #b6b680; /*lighter colour*/
+  color: #b6b680; /*lighter colour*/
+}
+
+
+.catalog{
+  display: block;
+  width: 100%;
+  text-align: center;
 }
 
 @font-face {
@@ -130,19 +150,19 @@ a {
 }
 
 .bullet-list, .numbered-list, .grid-blocks, #heading1, #heading2, #heading3, .heading-sample {
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: myFont;
 }
 
 .in-text-link:link {
-    color: #888860; /*darker colour*/
+  color: #888860; /*darker colour*/
 }
 
 .in-text-link:visited {
-    color: #888860; 
+  color: #888860; 
 }
 
 .in-text-link:hover {
-    color: #b6b680; /*lighter colour*/
+  color: #b6b680; /*lighter colour*/
 }
 
 .container {
@@ -168,7 +188,10 @@ a {
 	align-items: center;
 	justify-content: center;
 }
-
+.catalog{
+  display: block;
+  float: left;
+}
 .nav-btn {
   /*text-decoration: none;*/
   display: inline-block;
@@ -180,9 +203,8 @@ a {
   font-size: 1rem;
   padding: 1rem;
   width: 9rem;
-  transition: all 0.5s;
   cursor: pointer;
-  margin: 1rem;
+  margin: 0.5rem;
 }
 
 .render-menu {
@@ -193,7 +215,7 @@ a {
   cursor: pointer;
   display: inline-block;
   position: relative;
-  transition: 0.5s;
+  transition:  0.5s;
 }
 
 .nav-btn span:after {
@@ -215,10 +237,10 @@ a {
 }
 
 .form-btn {
-    background-color: #E4E4A1;
-    color: white;
-    border: .1rem solid #E4E4A1;
-    font-size: 0.875rem;
+  background-color: #E4E4A1;
+  color: white;
+  border: .1rem solid #E4E4A1;
+  font-size: 0.875rem;
 
 }
 
@@ -238,7 +260,6 @@ a {
   font-size: 1rem;
   padding: 1rem;
   width: 9rem;
-  transition: all 0.5s;
   cursor: pointer;
   margin: 1rem;
 }
@@ -349,7 +370,7 @@ h2 {
 }
 
 .links {
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: myFont;
 }
 
 section {
@@ -448,7 +469,7 @@ section code {
     }*/
 
 	.box {
-		flex: 0 0 100%;
+  	flex: 0 0 100%;
 	}
 
   .BX {
@@ -456,7 +477,7 @@ section code {
   }
 
 	.grid-blocks {
-		flex: 0 0 60%;
+    flex: 0 0 60%;
 	}
 
   .subscribes-input {
