@@ -332,6 +332,7 @@ ul.sub-item-detail li{
 .image-infor{
 	max-width: 30%;
 	margin:0 auto;
+  text-align: center;
 
 }
 .image-infor h3{
