@@ -665,176 +665,6 @@ background: url("../image/weibo-social-logo.png") no-repeat;
 /* end of scroll up button */
 
 
-@media screen and (max-width:768px){
-     .prom-content input[type="button"]{
-     	font-size: 0.8em;
-     }
-    .head-text h1{
-    	font-size:3em;
-    }
-    .head-intro{
-    	width:65%;
-    }
-    .image-infor{
-    	max-width: 50%;
-    }
-    #nr-section{
-    	padding:2em 0;
-    }
-    .prom-content{
-    	top:15%;
-    }
-    .prom-content h1{
-    	font-size: 1.2em;
-    }
-     .prom-content p{
-     	font-size: 0.9em;
-     }
-     #collect-content{
-     	width:32%;
-     	left:58%;
-     	top:15%;
-     }
-     #collect-content h1{
-     	font-size: 1.7em;
-     }
-     #collect-content h3{
-     	font-size: 1em;
-     }
-     #collect-content p{
-     	font-size: 0.8em;
-     	margin-bottom:1em;
-     }
-     #video-selector{
-     	padding:3em 0;
-     }
-     .video-galley iframe{
-	    position: relative;
-	    margin-top: 3em;
-  	    left:13%;
-  		width:26em;
-  		height:15em;
-  		display: none;
-  		animation:fadeUp 1s ease-in-out;
-
-     }
-     #trade-intro{
-
-     	width:60%;
-     	left:21%;
-     	top:10%;
-     }
-     #trade-intro p{
-     	margin-top: 1.1em;
-     	font-size: 1em;
-
-     }
-     #trade-intro h1{
-    
-     	font-size: 2em;
-     }
-     #trade-intro input{
-     	font-size: 0.8em;
-     }
-     .cy-intro h2{
-     	font-size: 0.9em;
-     }
-     .cy-intro p{
-     	font-size: 0.8em;
-     }
-     .cy-intro li{
-     	font-size: 0.8em;
-     }
-
-}
-
-@media screen and (max-width:417px){
-.head-search input[type=text]{
-  padding: 0.3em;
-  margin-top: 0.8em;
-  font-size: 0.4em;
-}
-
-.head-intro{
- margin-top: 0.5em;
- font-size: 0.8em;
-}
-
-.head-text h1{
-   font-size: 1.8em;
-}
-.main-nav{
-  display: none;
-}
-.se-nav{
-  display: none;
-}
-
-.logo-holder img{
-  width: 70px;
-}
-.hot-title h1{
-  font-size: 1.5em;
-}
-.image-infor{
-  max-width: 80%;
-}
-#video-selector{
-  display: none;
-}
-.prom-content h1{
-  font-size: 0.8em;
-}
-.prom-content p{
-  font-size: 0.5em;
-}
-.prom-content input[type="button"]{
-  font-size: 0.4em;
-  padding:0.5em 2em;
-}
-#trade-intro h1{
-  font-size:1.1em;
-}
-#trade-intro p{
-  font-size:0.6em;
-  margin-top:0.2em;
-}
-#trade-intro input{
-  margin-top:0.2em;
-  font-size: 0.5em;
-}
-.slider-image{
-  display: block;
-} 
-#collect-content{
-  display: block;
-}
-#collect-content h1{
-  font-size: 1.4em;
-}
-#collect-content h3{
-  margin-top:0.15em;
-}
-#collect-content p{
-  margin-top:0.2em;
-  font-size: 0.5em;
-}
-.cy-intro:first-child{
-  margin-left: 0;
-}
-.design-infor{
-  display: none;
-}
-.mobile{
-      display: block;    
-    }
-    img#footer-logo{
-      width: 45%;
-    }
-}
-
-
-
 
 
 
@@ -1181,3 +1011,183 @@ background: url("../image/weibo-social-logo.png") no-repeat;
 .register-confirm {
   padding-top: 4rem;
 }
+
+
+
+
+
+
+
+/*responsive*/
+
+@media screen and (max-width:768px){
+     .prom-content input[type="button"]{
+      font-size: 0.8em;
+     }
+    .head-text h1{
+      font-size:3em;
+    }
+    .head-intro{
+      width:65%;
+    }
+    .image-infor{
+      max-width: 50%;
+    }
+    #nr-section{
+      padding:2em 0;
+    }
+    .prom-content{
+      top:15%;
+    }
+    .prom-content h1{
+      font-size: 1.2em;
+    }
+     .prom-content p{
+      font-size: 0.9em;
+     }
+     #collect-content{
+      width:32%;
+      left:58%;
+      top:15%;
+     }
+     #collect-content h1{
+      font-size: 1.7em;
+     }
+     #collect-content h3{
+      font-size: 1em;
+     }
+     #collect-content p{
+      font-size: 0.8em;
+      margin-bottom:1em;
+     }
+     #video-selector{
+      padding:3em 0;
+     }
+     .video-galley iframe{
+      position: relative;
+      margin-top: 3em;
+        left:13%;
+      width:26em;
+      height:15em;
+      display: none;
+      animation:fadeUp 1s ease-in-out;
+
+     }
+     #trade-intro{
+
+      width:60%;
+      left:21%;
+      top:10%;
+     }
+     #trade-intro p{
+      margin-top: 1.1em;
+      font-size: 1em;
+
+     }
+     #trade-intro h1{
+    
+      font-size: 2em;
+     }
+     #trade-intro input{
+      font-size: 0.8em;
+     }
+     .cy-intro h2{
+      font-size: 0.9em;
+     }
+     .cy-intro p{
+      font-size: 0.8em;
+     }
+     .cy-intro li{
+      font-size: 0.8em;
+     }
+
+}
+
+@media screen and (max-width:417px){
+.head-search input[type=text]{
+  padding: 0.3em;
+  margin-top: 0.8em;
+  font-size: 0.4em;
+}
+
+.head-intro{
+ margin-top: 0.5em;
+ font-size: 0.8em;
+}
+
+.head-text h1{
+   font-size: 1.8em;
+}
+.main-nav{
+  display: none;
+}
+.se-nav{
+  display: none;
+}
+
+.logo-holder img{
+  width: 70px;
+}
+.hot-title h1{
+  font-size: 1.5em;
+}
+.image-infor{
+  max-width: 80%;
+}
+/*#nr1, #nr3 {
+  display: hidden;
+}*/
+#video-selector{
+  display: none;
+}
+.prom-content h1{
+  font-size: 0.8em;
+}
+.prom-content p{
+  font-size: 0.5em;
+}
+.prom-content input[type="button"]{
+  font-size: 0.4em;
+  padding:0.5em 2em;
+}
+#trade-intro h1{
+  font-size:1.1em;
+}
+#trade-intro p{
+  font-size:0.6em;
+  margin-top:0.2em;
+}
+#trade-intro input{
+  margin-top:0.2em;
+  font-size: 0.5em;
+}
+.slider-image{
+  display: block;
+} 
+#collect-content{
+  display: block;
+}
+#collect-content h1{
+  font-size: 1.4em;
+}
+#collect-content h3{
+  margin-top:0.15em;
+}
+#collect-content p{
+  margin-top:0.2em;
+  font-size: 0.5em;
+}
+.cy-intro:first-child{
+  margin-left: 0;
+}
+.design-infor{
+  display: none;
+}
+.mobile{
+      display: block;    
+    }
+    img#footer-logo{
+      width: 45%;
+    }
+}
+
