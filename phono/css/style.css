@@ -374,6 +374,19 @@ ul.sub-item-detail li{
 }
 /****** end of promotion section  ******/
 
+.blue-btn {
+  margin: 0 auto;
+    font-size: 1.1em;
+  padding:0.5em 2em;
+  border-radius:0.3em;
+  border:none;
+  cursor: pointer;
+  background-color: #262c3a;
+  color:#f1eee5;
+  letter-spacing: 2px;
+}
+
+
 /****** collection section  ******/
 #collect-content{
 	position: absolute;
@@ -1013,7 +1026,26 @@ background: url("../image/weibo-social-logo.png") no-repeat;
 }
 
 
+/*black star*/
+.bs-main img{
+  width: 100%;
+  height: auto;
+  margin-top: 3.8rem;
+  margin-bottom: -0.3rem;
+}
 
+.bs-btn {
+  /*position: relative;*/
+  margin-top: 0rem;
+  font-size: 1.1em;
+  padding:0.5em 2em;
+  border-radius:0.3em;
+  border:none;
+  cursor: pointer;
+  background-color: #FFFFFF;
+  color:#262c3a;
+  letter-spacing: 2px;
+}
 
 
 
